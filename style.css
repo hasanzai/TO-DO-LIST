@@ -1,0 +1,83 @@
+html {
+    height: 100%;
+    background: #c2e59c;
+    background: -webkit-linear-gradient(to right, #e62604, #e2ac48);
+    background: linear-gradient(to right, #e62604, #e2ac48);
+    font-family: sans-serif;
+    color: #0f222d;
+    background-size: auto;
+}
+
+.tasker {
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+}
+
+.h1 {
+    text-align: center;
+    font-size: 3vw;
+    font-weight: 900;
+    color: black;
+}
+
+form {
+    background-color: #fff;
+    padding: 15px;
+}
+
+input[type="text"] {
+    width: 310px;
+    height: 30px;
+    outline: 0;
+    border: none;
+    font-size: 1.5em;
+    background: #fff;
+    color: #2f4f4f;
+}
+
+button {
+    font-size: 1.5em;
+    color: green;
+    background-color: #fff;
+    outline: 0;
+    border: none;
+    width: 50px;
+}
+
+button:hover {
+    background-color: greenyellow;
+}
+
+.delete {
+    float: right;
+}
+
+.allTasks {
+    background-color: #fff;
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 40px;
+    display: none;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    border-bottom: 1px solid black;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    font-size: 1.3em;
+    color: #2f4f4f;
+}
+
+.delete {
+    background-color: transparent;
+    color: black;
+    cursor: pointer;
+}
